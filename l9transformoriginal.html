@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform Original</title>
+	<style type="text/css">
+		img{
+			width: 300px;
+			height: 200px;
+			display: block;
+			margin: auto;
+			margin-top: 200px;
+
+			transition: all 2s;
+
+/*Default သည် center မှ အလုပ်လုပ်သည်။*/
+
+			/*transform-origin: top; အလည်ထိပ်မှ လည်ရန်သုံး*/
+
+			/*transform-origin: bottom;*/
+			/*transform-origin: left;*/
+			/*transform-origin: right;*/
+
+
+			/*transform-origin: left top;*/
+			/*transform-origin: right top;*/
+
+			/*transform-origin: left bottom;*/
+			/*transform-origin: right bottom;*/
+
+							/*right bottom*/
+			/*transform-origin: 30% 80%;*/
+
+			transform-origin: 150px 100px;
+		}
+
+		img:hover{
+			transform:rotate(45deg);
+		}
+	</style>
+</head>
+<body>
+	<img src="img/dog.jpg" alt="dog" />
+</body>
+</html>
